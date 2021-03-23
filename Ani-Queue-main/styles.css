@@ -1,0 +1,322 @@
+
+/* ------------------------- JUMBOTRON ------------------------- */
+
+.hero-background-img{
+  background: 
+  
+  url(assets/landing.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height:80vh;
+}
+
+
+/* ------------------------- MAIN ------------------------- */
+
+.content-container {
+  padding-left: 180px;
+  padding-top: 20px;
+}
+
+h1, h2, h3, .navbar-brand{
+  font-family: "Futura";
+  color: rgb(255, 156, 49);
+}
+
+
+/* ------------------------- SIDEBAR ------------------------- */
+
+.sidebar-container {
+  position: fixed;
+  width: 180px;
+  height: 100%;
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: 10;
+}
+
+.sidebar-container p {
+  bottom: 0;
+}
+
+.sidebar-logo {
+  padding: 22px 15px 10px 30px;
+  font-size: 20px;
+}
+
+.sidebar-navigation {
+  list-style-type: none;
+}
+
+.sidebar-navigation li {
+  
+  background-color: transparent;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  line-height: 20px;
+}
+
+.sidebar-navigation li a {
+  padding: 10px 15px 10px 30px;
+  display: block;
+  color: rgb(255, 156, 49);
+}
+
+.sidebar-navigation li .fa {
+  margin-right: 10px;
+}
+
+.sidebar-navigation li a:active,
+.sidebar-navigation li a:hover,
+.sidebar-navigation li a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+.sidebar-navigation li::before {
+  background-color: #2574A9;
+  position: absolute;
+  content: '';
+  height: 100%;
+  left: 0;
+  top: 0;
+  -webkit-transition: width 0.2s ease-in;
+  transition: width 0.2s ease-in;
+  width: 3px;
+  z-index: -1;
+}
+
+.sidebar-navigation li:hover::before {
+  width: 100%;
+}
+
+.sidebar-navigation .header {
+  font-size: 12px;
+  text-transform: uppercase;
+  background-color: #151515;
+  padding: 10px 15px 10px 30px;
+}
+
+.sidebar-navigation .header::before {
+  background-color: transparent;
+}
+
+
+/* ------------------------- SIGN UP FORM ------------------------- */
+
+.form-control{
+  height: 40px;
+  color: #969fa4;
+}
+.signup-form{
+  width: 400px;
+  margin: 0 auto;
+}
+.signup-form form{
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+}
+
+/* ------------------------- PROFILE ------------------------- */
+
+.profile-nav .user-heading {
+  color: #fff;
+  border-radius: 4px 4px 0 0;
+  -webkit-border-radius: 4px 4px 0 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.profile-nav .user-heading.round a  {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border: 10px solid rgba(255,255,255,0.3);
+  display: inline-block;
+}
+
+.profile-nav .user-heading a img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+/* --------------------------- PROFILE IMAGES --------------------------- */
+.card-img:hover{
+  position: relative;
+  transform:scale(1.5);
+  z-index: 99999 !important;
+  transition: all 0.5s ease;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);;
+}
+/* -------FieldSETS--------- */
+fieldset {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+fieldset label {
+margin-bottom: 0rem;
+}
+
+fieldset input {
+  padding: 5x;
+}
+
+input[type=submit] {
+  margin: 1rem;
+  align-self: flex-end;
+  box-shadow: none;
+  padding: 8px 25px;
+  border: none;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #54ffac, #54a7ff);
+  color: black;
+}
+
+ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+.heading.heading-icon {
+    display: block;
+}
+.padding-lg {
+	display: block;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.practice-area.padding-lg {
+    padding-bottom: 55px;
+    padding-top: 55px;
+}
+.practice-area .inner{ 
+     border:1px solid #999999; 
+	 text-align:center; 
+	 margin-bottom:28px; 
+	 padding:40px 25px;
+}
+.our-webcoderskull .cnt-block:hover {
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    border: 0;
+}
+.practice-area .inner h3{ 
+    color:#3c3c3c; 
+	font-size:24px; 
+	font-weight:500;
+	font-family: 'Poppins', sans-serif;
+	padding: 10px 0;
+}
+.practice-area .inner p{ 
+    font-size:14px; 
+	line-height:22px; 
+	font-weight:400;
+}
+.practice-area .inner img{
+	display:inline-block;
+}
+
+/*----------------- */
+.padding-lg{
+  background: url("images/background1.jpg") no-repeat center top / cover;
+  
+}
+.cnt-block{ 
+   float:left; 
+   width:100%; 
+   background:grey; 
+   padding:30px 20px; 
+   text-align:center; 
+   border:2px solid black;
+   margin: 0 0 28px;
+}
+.cnt-block figure{
+   width:148px; 
+   height:148px; 
+   border-radius:100%; 
+   display:inline-block;
+   margin-bottom: 15px;
+}
+.cnt-block img{ 
+   width:148px; 
+   height:148px; 
+   border-radius:100%; 
+}
+ .cnt-block h3{ 
+   color:#2a2a2a; 
+   font-size:20px; 
+   font-weight:500; 
+   padding:6px 0;
+   text-transform:uppercase;
+}
+ .cnt-block h3 a{
+  text-decoration:none;
+	color:#2a2a2a;
+}
+ .cnt-block h3 a:hover{
+	color:#FF9C31;
+}
+ .cnt-block p{ 
+   color:#2a2a2a; 
+   font-size:13px; 
+   line-height:20px; 
+   font-weight:400;
+}
+ .cnt-block .follow-us{
+	margin:20px 0 0;
+}
+ .cnt-block .follow-us li{ 
+    display:inline-block; 
+	width:auto; 
+	margin:0 5px;
+}
+ .cnt-block .follow-us li .fa{ 
+   font-size:24px; 
+   color:black;
+}
+ .cnt-block .follow-us li .fa:hover{ 
+   color:#FF9C31;
+}
+
+body, p {
+  font-family: 'Raleway' !important;
+}
+
+h3 {
+  font-family: 'Ubuntu' !important;
+}
+
+h1 {
+  font-family: 'Caveat' !important;
+  font-size: 48px !important;
+}
+
+/*-------------------*/
+.items {
+  display: grid;
+  grid-template-columns: repeat(3, 120px);
+  grid-column-gap: 200px;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.item {
+  border: 2px solid black;
+  width: 300px;
+  margin-top: 30px;
+}
+.item button{
+  border: 1px solid black;
+  background-color: #FF9C31;
+  
+}
+/*------------------------*/
+.watchlist-total {
+align-content: center;
+}
